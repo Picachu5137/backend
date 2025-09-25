@@ -37,10 +37,10 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    'easy_tours.apps.EasyToursConfig',
-    'auth.apps.AuthConfig',
-    'tour.apps.TourConfig',
-    'user.apps.UserConfig',
+    "easy_tours.apps.EasyToursConfig",
+    "auth.apps.AuthConfig",
+    "tour.apps.TourConfig",
+    "user.apps.UserConfig",
 ]
 
 MIDDLEWARE = [
@@ -58,8 +58,7 @@ ROOT_URLCONF = "backend.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [BASE_DIR / 'templates']
-        ,
+        "DIRS": [BASE_DIR / "templates"],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
